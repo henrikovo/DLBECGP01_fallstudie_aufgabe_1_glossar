@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <g transform="matrix(1,0,0,1,18.672,656.331)">
+            <text x="0px" y="0px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:120px;fill:rgb(8,8,8);">L</text>
+        </g>
+        <g transform="matrix(1,0,0,1,72.344,656.331)">
+            <text x="0px" y="0px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:120px;fill:rgb(8,8,8);">OG7-CONSUL</text>
+        </g>
+        <g transform="matrix(1,0,0,1,712.363,656.331)">
+            <text x="0px" y="0px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:120px;fill:rgb(8,8,8);">T</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,0,-40)">
+        <path d="M493.325,503.52L312.253,503.52C312.253,503.52 298.285,427.949 438.953,300L389.569,300C389.569,300 250.398,417.972 278.831,535.196L525,535.196L493.325,503.52Z" style="fill:rgb(0,130,8);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,-40)">
+        <path d="M487.747,271.675C487.747,271.675 501.715,347.247 361.047,475.195L410.431,475.195C410.431,475.195 549.602,357.223 521.169,240L275,240L306.675,271.675L487.747,271.675Z" style="fill:rgb(8,8,8);fill-rule:nonzero;"/>
+    </g>
+</svg>

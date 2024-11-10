@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Glossar der Log7-Consult GmbH</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.webp" alt="Log7-Consult GmbH Logo" class="logo"></a>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Suchbegriff eingeben...">
+            <div id="suggestions"></div>
+            <button id="search-button">Suchen</button>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="glossar.html">Glossar</a></li>
+                <li><a href="admin.html" class="active">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pdlr-20">
+        <nav aria-label="breadcrumbs">
+            <ol class="breadcrumbs">
+                <li class="breadcrumbs-item"><a href="index.html">Log7-Consult &gt;</a></li>
+                <li class="breadcrumbs-item active" aria-current="page">Admin &gt;</li>
+                <li class="breadcrumbs-item">&#8230;</li>
+            </ol>
+        </nav>
+        <div class="content pdb-20">
+            <h1>Online-Glossar - Adminbereich</h1>
+            <p> Im Online-Glossar der Log7-Consult GmbH findet ihr alle wichtigen Begriffe und Abkürzungen, die
+                in unserem Arbeitsalltag auftauchen. Dieses Glossar wird vom IT-Team und den Super-Usern der Abteilungen
+                gepflegt und aktualisiert.
+            </p>
+            <p>Für das Login bitte verwende das folgende Anmeldeformular.</p>
+        </div>
+        <div class="login-container">
+            <h3>Login</h3>
+            <form action="/login" method="POST">
+                <label for="username">Benutzername</label>
+                <input type="text" id="username" name="username" placeholder="Benutzername" required>
+
+                <label for="password">Passwort</label>
+                <input type="password" id="password" name="password" placeholder="Passwort" required>
+
+                <input type="submit" value="Einloggen">
+
+                <a href="#">Passwort vergessen?</a>
+            </form>
+        </div>
+        <hr>
+        <div class="content pdb-20">
+            <form action="/submit-term" method="post" enctype="multipart/form-data">
+                <h3>Neuen Begriff hinzufügen</h3>
+                <p>Als Super-User deiner Abteilung kannst du dem Glossar selbständig neue Begriffe hinzufügen.
+                    Bitte logge dich dazu vorher ein und fülle das folgende Formular aus</a>.
+                </p>
+                <label for="title">Überschrift:</label>
+                <input type="text" id="title" name="title" required><br><br>
+                <label for="short-description">Kurzbeschreibung:</label>
+                <textarea id="short-description" name="short-description" rows="3" required></textarea><br><br>
+                <label for="goals">Ziele:</label>
+                <textarea id="goals" name="goals" rows="3" required></textarea><br><br>
+                <label for="image">Bild bzw. Grafik:</label>
+                <input type="file" id="image" name="image" accept="image/*"><br><br>
+                <label for="application">Anwendung und Durchführung:</label>
+                <textarea id="application" name="application" rows="5" required></textarea><br><br>
+                <label for="advantages">Vorteile:</label>
+                <textarea id="advantages" name="advantages" rows="3" required></textarea><br><br>
+                <label for="alternatives">Alternativen und Ergänzungen:</label>
+                <textarea id="alternatives" name="alternatives" rows="3" required></textarea><br><br>
+                <label for="conclusion">Fazit und weiterführende Links:</label>
+                <textarea id="conclusion" name="conclusion" rows="3" required></textarea><br><br>
+                <h3>Administrative Felder</h3>
+                <label for="category">Abteilung bzw. Begriffskategorie:</label>
+                <select id="category" name="category" required>
+                    <option value="marketing">Marketing</option>
+                    <option value="logistic">Logistik</option>
+                    <option value="it">IT</option>
+                </select><br><br>
+                <label for="admin-name">Name des Admins/Super-Users:</label>
+                <input type="text" id="admin-name" name="admin-name" required><br><br>
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                <input type="submit" value="Begriff hinterlegen" class="begriffbtn">
+            </form>
+        </div>
+        <hr>
+        <a href="#" class="back-to-home" onclick="goToHome()">Zurück zur Startseite</a>
+        <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <a href="index.html"><img src="img/logo_o_w.webp" alt="Log7-Consult GmbH Logo" class="logo"></a>
+            <p>Log7-Consult GmbH</p>
+            <p>&copy;</p>
+            <p>2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

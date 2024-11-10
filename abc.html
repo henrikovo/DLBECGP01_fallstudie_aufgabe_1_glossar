@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Glossar der Log7-Consult GmbH</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.webp" alt="Log7-Consult GmbH Logo" class="logo"></a>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Suchbegriff eingeben...">
+            <div id="suggestions"></div>
+            <button id="search-button">Suchen</button>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="glossar.html" class="active">Glossar</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pdlr-20">
+        <nav aria-label="breadcrumbs">
+            <ol class="breadcrumbs">
+                <li class="breadcrumbs-item"><a href="index.html">Log7-Consult &gt;</a></li>
+                <li class="breadcrumbs-item"><a href="glossar.html">Glossar &gt;</a></li>
+                <li class="breadcrumbs-item active" aria-current="page">ABC-Analyse</li>
+            </ol>
+        </nav>
+        <h2>ABC-Analyse</h2>
+        <p>Die ABC-Analyse ist ein betriebswirtschaftliches Instrument, das Unternehmen hilft, ihre Ressourcen
+            effektiv zu priorisieren und zu verwalten. Sie wird häufig im Einkauf, Lagerwesen und in der
+            Produktionsplanung eingesetzt.</p>
+        <hr>
+        <h3>Ziele</h3>
+        <p>Das Hauptziel der ABC-Analyse besteht darin, die wichtigsten Elemente (wie Produkte, Kunden oder
+            Lieferanten) zu identifizieren, die den größten Einfluss auf das Unternehmen haben. Diese Elemente
+            werden in drei Kategorien unterteilt:</p>
+        <ul>
+            <li><b>A-Güter:</b> Diese machen einen kleinen Teil der Gesamtheit aus, haben aber einen hohen
+                Wertanteil.</li>
+            <li><b>B-Güter:</b> Diese Güter liegen im mittleren Bereich und haben einen moderaten
+                Wertanteil.</li>
+            <li><b>C-Güter:</b> Diese machen einen großen Teil der Gesamtheit aus, haben aber einen
+                geringen Wertanteil.</li>
+        </ul>
+        <figure>
+            <img src="img/abc.webp" alt="Struktur der ABC-Analyse">
+            <figcaption>Einordnung von Elementen in der ABC-Analyse</figcaption>
+        </figure>
+
+        <h3>Anwendung und Durchführung</h3>
+        <p>Die ABC-Analyse findet in vielen Bereichen Anwendung, darunter:</p>
+        <ul>
+            <li><b>Einkauf:</b> Identifizierung der wichtigsten Lieferanten und Produkte.</li>
+            <li><b>Lagerverwaltung:</b> Priorisierung von Lagerbeständen.</li>
+            <li><b>Kundenmanagement:</b> Fokus auf die wichtigsten Kunden.</li>
+            <li><b>Produktionsplanung:</b> Effiziente Planung von Produktionsprozessen.</li>
+        </ul>
+        <p>Die Durchführung der ABC-Analyse erfolgt in mehreren Schritten:</p>
+        <ol>
+            <li>Identifizierung und Erfassung der zu analysierenden Elemente (z.B. Produkte, Kunden, Lieferanten).
+            </li>
+            <li>Sortierung dieser Elemente nach ihrem Wertanteil oder ihrem Beitrag zum Gesamtwert.</li>
+            <li>Einteilung der Elemente in A-, B- und C-Kategorien, basierend auf ihrem relativen Wert.</li>
+        </ol>
+        <h3>Vorteile</h3>
+        <p>Die ABC-Analyse bietet mehrere Vorteile:</p>
+        <ul>
+            <li>Ermöglicht eine klare Priorisierung von Ressourcen.</li>
+            <li>Verbessert die Effizienz in der Entscheidungsfindung.</li>
+            <li>Helfen Unternehmen, sich auf die wichtigsten Elemente zu konzentrieren.</li>
+        </ul>
+        <h3>Alternativen und Ergänzungen</h3>
+        <p>Durch die Wechselwirkung mit der <a href="xyz.html" target="_blank">XYZ-Analyse</a> kann die ABC-Analyse
+            sowohl Prozesse
+            optimieren als auch Kosten senken.
+        </p>
+        <h3>Fazit</h3>
+        <p>Die ABC-Analyse ist ein wertvolles Instrument zur Verbesserung der Effizienz und Effektivität in
+            verschiedenen Geschäftsprozessen. Durch die Fokussierung auf die wichtigsten Elemente können Unternehmen
+            ihre Ressourcen optimal nutzen und bessere Entscheidungen treffen.</p>
+        <p>Weiterführende externe Quellen und Links:</p>
+        <ul>
+            <li><a href="https://www.bwl-lexikon.de/wiki/abc-analyse/" target="_blank">BWL-Lexikon</a></li>
+            <li><a href="https://t2informatik.de/wissen-kompakt/abc-analyse/" target="_blank">t2informatik</a></li>
+            <li><a href="https://https://www.remira.com/de/glossar/abc-xyz-analyse/" target="_blank">remira.com</a></li>
+        </ul>
+        </div>
+        <hr>
+        <div class="content pdb-20">
+            <h3>Neuen Begriff hinzufügen</h3>
+            <p>Als Super-User deiner Abteilung kannst du dem Glossar selbständig neue Begriffe hinzufügen. <br>
+                Bitte benutze dazu das Login und die Authentifizierung auf der <a href="admin.html"
+                    target="_blank">Admin-Seite</a>.
+            </p>
+        </div>
+        <hr>
+        <a href="#" class="back-to-home" onclick="goToHome()">Zurück zur Startseite</a>
+        <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <a href="index.html"><img src="img/logo_o_w.webp" alt="Log7-Consult GmbH Logo" class="logo"></a>
+            <p>Log7-Consult GmbH</p>
+            <p>&copy;</p>
+            <p>2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
